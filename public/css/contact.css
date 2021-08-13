@@ -1,9 +1,19 @@
 .content{
-    box-sizing: border-box;
-    border-color: black;
-    border-radius: 5px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    max-width: 1000px;
 }
+
+body{
+    overflow: hidden;
+    background: #dde1e7 !important;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.space{
+    margin-top: 10px;
+}
+

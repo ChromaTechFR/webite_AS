@@ -4,55 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/acceuil.css">
+  <link rel="stylesheet" href="/css/accueil.css">
   <link rel="stylesheet" href="/fontawesome/css/all.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <title>acceuil</title>
+  <title>accueil</title>
 </head>
-<body style="background: #dde1e7";
->
+<body style="background: #dde1e7";>
 
-  <div class="menu">
-    <div class="">
-      <a class="navbar underline" href="/contact">contact</a>
-    </div>
-    <div>
-      <a class="navbar underline">mon cv</a>
-    </div>
-    <div>
-      <a class="navbar underline">qui sommes nous</a>
-    </div>
-    <div>
-      <div class="dropdown navbar">
-        <a class="dropbtn navbar underline" style="padding-top: 0;">nos domaines d'action</a>
-        <div class="dropdown-content">
-          <a href="#">Guidance parentale</a>
-          <a href="#">Enquête sociale</a>
-          <a href="#">Formations/CPF</a>
-          <a href="">Développement personnel</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <%- include('./includes/navbar.ejs') %>
 
-  <div class="reseau">
+  <div class="placement">
+    <div class="reseau d-flex justify-content-center">
       <ul class="icon">
-      <a class="link" href="https://www.facebook.com/QUEMINV_Guidance-Parentale-103503275374659/" target="_blank">
-        <li class="logo">
-          <i class="fab fa-facebook-f"></i>
-        </li>
-      </a>
-      <a class="link" href="https://www.instagram.com/queminv_guidanceparentale/" target="_blank">
-        <li class="logo">
-          <i class="fab fa-instagram"></i>
-        </li>
-      </a>
-      <a class="link" href="">
-        <li class="logo">
-          <i class="fab fa-snapchat-ghost"></i>
-        </li>
-      </a>
-    </ul> 
+        <a class="link" href="https://www.facebook.com/QUEMINV_Guidance-Parentale-103503275374659/" target="_blank">
+          <li class="logo">
+            <i class="fab fa-facebook-f"></i>
+          </li>
+        </a>
+        <a class="link" href="https://www.instagram.com/queminv_guidanceparentale/" target="_blank">
+          <li class="logo">
+            <i class="fab fa-instagram"></i>
+          </li>
+        </a>
+        <a class="link" href="">
+          <li class="logo">
+            <i class="fab fa-snapchat-ghost"></i>
+          </li>
+        </a>
+      </ul> 
+    </div>    
   </div>
 
 </body>
