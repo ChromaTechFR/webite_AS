@@ -27,9 +27,6 @@ router.post("/contact", urlencodedParser, async (req,res) =>{
         to: data.email,
         subject:data.titre,
         text: data.texte,
-        attachment: [
-            { filename: '' }
-        ]
     };
 
     transporter.sendMail(options, function(err, info){
