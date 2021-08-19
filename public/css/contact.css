@@ -22,3 +22,7 @@ body{
     justify-content: center;
     margin-top: 25%;
 }
+
+.alert{
+    z-index: 2 !important;
+}

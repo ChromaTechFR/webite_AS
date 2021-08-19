@@ -1,0 +1,6 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+}
