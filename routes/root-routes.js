@@ -55,4 +55,7 @@ router.get("/enquete", (req,res) => res.render("enquete",
 router.get("/cv", (req,res) => res.render("cv",
 {subtitle: 'mon cv'}))
 
+router.get("/qui-sommes-nous", (req,res) => res.render("qui-sommes-nous",
+{subtitle: 'qui sommes nous'}))
+
 module.exports = router;
