@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/accueil.css">
-  <link rel="stylesheet" href="/css/cv.css">
-  <link rel="stylesheet" href="/fontawesome/css/all.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <title> <%=subtitle%> </title>
-</head>
-<body style="background: #dde1e7";>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/accueil.css" />
+    <link rel="stylesheet" href="/css/cv.css" />
+    <link rel="stylesheet" href="/fontawesome/css/all.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <title><%=subtitle%></title>
+  </head>
+  <body style="background: #dde1e7" ;>
+    <%- include('./includes/navbar.ejs') %>
 
-  <%- include('./includes/navbar.ejs') %>
+    <div class="center">
+      <a href="/assets/CV QUEMIN V.docx" class="panel" target="_blank">
+        <div class="info">
+          <h1>Virginie Quemin</h1>
+          <img src="/assets/selfie2.jfif" alt="moi" width="128" height="128" />
+        </div>
 
-  <div class="center">
-    <a href="/assets/CV QUEMIN V.docx" class="panel" target="_blank">
-       <div class="info">
-            <h1>Virginie Quemin</h1>
-            <img src="/assets/selfie2.jfif" alt="moi" width="128" height="128">
-       </div> 
-    
-        <p>J’ai 15 ans d’expérience dans le domaine de la protection de l’enfance et de l’accompagnement des familles. La guidance familiale et la thérapie familiale sont devenues une évidence dans le cadre de mon activité d’expert au près de la cour d’appel de Lyon ; je me suis vite rendue compte qu’il n’y avait pas de recette pou « être parent ».
-      
-       
-      
-          Les nouvelles de forme de famille et le réforme du code civil et de l’article 212, montre l’évolution des formes de famille.
-          
-           
-          
-          Les parents ont parfois juste besoin d’un espace et d’un « coup de pouce » pour retrouver la voie de leur autorité parentale.
-          
-           
-          
-          Ces nouvelles méthodes d’accompagnement des parents permettent souvent de d’asamorcer des situations de conflits qui auraient pu devenir majeur.
-          
-           
-          
-          Etre une famille c’est aussi être un couple et être un individu a part entière c’est pourquoi j’ai fait le choix de pouvoir accompagner ensemble ou individuellement l’ensemble des membres d’une même famille.</p>
-          <br>
-          <p class="next">lire plus ici</p>
-    </a>
-  </div>
-  
-</body>
+        <p>
+          J’ai 15 ans d’expérience dans le domaine de la protection de l’enfance
+          et de l’accompagnement des familles. La guidance familiale et la
+          thérapie familiale sont devenues une évidence dans le cadre de mon
+          activité d’expert au près de la cour d’appel de Lyon ; je me suis vite
+          rendue compte qu’il n’y avait pas de recette pou « être parent ». Les
+          nouvelles de forme de famille et le réforme du code civil et de
+          l’article 212, montre l’évolution des formes de famille. Les parents
+          ont parfois juste besoin d’un espace et d’un « coup de pouce » pour
+          retrouver la voie de leur autorité parentale. Ces nouvelles méthodes
+          d’accompagnement des parents permettent souvent de d’asamorcer des
+          situations de conflits qui auraient pu devenir majeur. Etre une
+          famille c’est aussi être un couple et être un individu a part entière
+          c’est pourquoi j’ai fait le choix de pouvoir accompagner ensemble ou
+          individuellement l’ensemble des membres d’une même famille.
+        </p>
+        <br />
+        <p class="next">lire plus ici</p>
+      </a>
+    </div>
+  </body>
 </html>
