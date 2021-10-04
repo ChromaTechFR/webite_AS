@@ -6,19 +6,19 @@ const flash = require('connect-flash')
 
 app.use(express.static('public'));
 
-app.use(express.static( __dirname + 'public/css'))
+app.use(express.static(__dirname + 'public/css'))
 
 app.use(session({
     secret: 'secret',
-    cookie:{maxAge: 60000},
+    cookie: { maxAge: 60000 },
     resave: false,
     saveUninitialized: false
- }))
- 
+}))
+
 app.use(flash())
 
 app.set('view engine', 'ejs');
 
 app.use('/', rootRoutes);
 
-app.listen( 1234, () => console.log("site allumé"));
+app.listen(process.env.PORT, () => console.log("site allumé"));
